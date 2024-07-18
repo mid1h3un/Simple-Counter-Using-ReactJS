@@ -1,0 +1,68 @@
+.cont1{
+    display: grid;
+    place-content: center;     
+    height: 100vh;           
+}
+.cont1 .centered-div{
+  background-color: rgb(28, 28, 28);
+  width: 100vh;
+  max-width: 70vh;
+  height: 50vh; 
+  border-radius: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 5vh;
+}
+.cont1 .centered-div .In-btn{
+  background-color: rgb(33, 223, 68);
+  width: 17vh;
+  height: 12vh;
+  margin-bottom: 7vh;
+  border-radius: 2vh;
+  border: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3vh;
+  color: aliceblue;
+  cursor: pointer;
+}
+.cont1 .centered-div .reset{
+  background-color: rgb(223, 103, 33);
+  width: 17vh;
+  height: 12vh;
+  margin-bottom: 7vh;
+  border-radius: 2vh;
+  border: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3vh;
+  color: aliceblue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.cont1 .centered-div .de-btn{
+  background-color: rgb(12, 184, 181);
+  width: 17vh;
+  height: 12vh;
+  margin-bottom: 7vh;
+  border-radius: 2vh;
+  border: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3vh;
+  color: aliceblue;
+  cursor: pointer;
+}
+.cont1 .centered-div .reset:hover{
+  background-image: linear-gradient(rgb(223, 103, 33),rgba(167, 160, 160, 0.814));
+}
+.cont1 .centered-div .In-btn:hover{
+  background-image: linear-gradient( rgb(33, 223, 68),rgba(167, 160, 160, 0.814));
+}
+.cont1 .centered-div .de-btn:hover{
+  background-image: linear-gradient( rgb(12, 184, 181),rgba(167, 160, 160, 0.814));
+}
+.centered-div p{
+  color: aliceblue;
+  position: absolute;
+  top: 3vh;
+  font-size: 25vh;
+}
