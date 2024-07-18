@@ -1,4 +1,4 @@
-import Lists from "./Lists"
+import Lists from "./Lists.jsx"
 function App() {
     return(<Lists></Lists>)
 } 
